@@ -6,10 +6,13 @@ System requirements :  Devstack attempts to support Ubuntu 14.04/16.04, Fedora 2
 Steps to integrate devstack with ldap </br>
 
 1) Cloning Devstack liberty </br>
-`**Note:** You can use any of this if you want use anything other than liberty you should change it correspondingly in the localrc file also.`
+```**Note:** You can use any of this if you want use anything other than liberty you should change it correspondingly in the localrc file also.
+```
 
 `git clone https://github.com/openstack-dev/devstack.git -b stable/liberty </br>`
+
 `git clone https://github.com/openstack-dev/devstack.git -b stable/newton </br>`
+
 `git clone https://github.com/openstack-dev/devstack.git -b stable/ocata </br>`
 
 If git is not installed install it by sudo apt-get install git </br>
